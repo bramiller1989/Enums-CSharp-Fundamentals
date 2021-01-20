@@ -14,8 +14,10 @@ namespace Enums
         static void Main(string[] args)
         {
             var method = ShippingMethod.Express;
-            Console.WriteLine(method);
             Console.WriteLine((int)method);
+
+            var methodId = 3;
+            Console.WriteLine((ShippingMethod)methodId);
         }
     }
 }
